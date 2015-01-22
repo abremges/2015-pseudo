@@ -25,3 +25,7 @@ File | Description | Method summary
 `genes_heat_*.txt` | Methylation per gene | Relative methylation per gene, seperately for genes on plus and minus strand
 `modifications_*.txt` | Genome-wide methylation | Absolute methylation per 2kb, 10kb and 50kb window, also strand-specific
 Anything else | Mandatory CIRCOS files | Stuff like genome length, layout options, ...
+
+#### Figure
+![alt text](https://github.com/abremges/2015-pseudo/blob/master/circos_text.png "Pseudomonas pseudoalcaligenes CACT5344")
+__Plot of the complete Pseudomonas pseudoalcaligenes CECT5344 genome.__ The genome consists of 4,696,984 base pairs and 4,436 predicted coding sequences. The circles represent from the inside: 1, GC skew (red above and black below zero, 5kb window); 2, GC content (blue above and black below genome average of 62.46%, 5kb window); 3-5, strand-specific genome-wide methylation analyzed in 50kb, 10kb and 2kb windows; 6, strand-specific methylation per gene; 7, scale in million base pairs (Mb). Methylation color spectrum goes from blue (zero) over yellow (mean) to red (2*mean).
