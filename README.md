@@ -9,7 +9,6 @@ File | Description | Method summary
 `Pseudo_Pac.fas` | Genome sequence | Assembled with `RS_HGAP_Assembly.1` in SMRTanalysis 2.0.1, then manually cut and aligned
 `Pseudo_Pac.gtf` | Genome annotation | Annotated in GenDB with default settings
 `modifications.gff3` | Modified bases | Methylation detection with `RS_Modification_and_Motif_Analysis.1` in SMRTanalysis 2.0.1, using `Pseudo_Pac.fas` as the reference
-`gc_5000.gcSkew` | GC content and skew | Output of `gcSkew.pl -f Pseudo_Pac.fas -w 5000` (see below)
 
 #### Scripts etc.
 
@@ -22,6 +21,7 @@ File | Description | Method summary
 
 File | Description | Method summary
 --- | --- | ---
+`gc_5000.gcSkew` | GC content and skew | Output of `gcSkew.pl -f Pseudo_Pac.fas -w 5000`
 `gc_5000.gc` | Raw GC content | Column with the GC content, taken from `gc_5000.gcSkew`
 `gc_5000-62.46.gc` | Adjusted GC content |  Absolute distances from the genome's mean GC content (62.46%)
 `gc_5000.skew` | GC skew | Column with the GC skew, taken from `gc_5000.gcSkew`
