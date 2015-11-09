@@ -31,6 +31,6 @@ Anything else | Mandatory CIRCOS files | Stuff like genome length, layout option
 
 #### Figure
 
-![alt text](https://github.com/abremges/2015-pseudo/blob/master/circos_legend.png "Pseudomonas pseudoalcaligenes CACT5344")
+![alt text](https://github.com/abremges/2015-pseudo/blob/master/circos_legend.jpg "Pseudomonas pseudoalcaligenes CACT5344")
 
 __Plot of the complete Pseudomonas pseudoalcaligenes CECT5344 genome.__ The genome consists of 4,696,984 base pairs and 4,436 predicted coding sequences. The circles represent from the inside: 1, GC skew (red above and black below zero, 5kb window); 2, GC content (blue above and black below genome average of 62.46%, 5kb window); 3, strand-specific genome-wide methylation analyzed in 10kb windows; 4, strand-specific methylation per gene; 5, scale in million base pairs (Mb). Methylation color spectrum goes from blue (zero) over yellow (mean) to red (2*mean).
